@@ -1,0 +1,45 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-size {
+  width: 40%;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+h3,
+h4 {
+  text-align: center;
+  color: brown;
+  font-size: 30px;
+}
+.ingredients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid black 1px;
+  width: 50%;
+  margin: auto;
+}
+
+.ingredients li {
+  padding: 1%;
+}
+
+.directions li {
+  width: 50%;
+  text-align: center;
+  margin: 5% auto;
+  padding: 1%;
+}
+
+.directions {
+  border: solid black 1px;
+  width: 50%;
+  margin: auto;
+}
